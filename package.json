@@ -1,6 +1,6 @@
 {
   "name": "@m11g/vue-library",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/vue-library.ssr.js",
   "browser": "dist/vue-library.esm.js",
   "module": "dist/vue-library.esm.js",
