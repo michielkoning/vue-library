@@ -1,5 +1,5 @@
 {
-  "name": "@m11g/vue-library",
+  "name": "vue-library",
   "repository": "https://github.com/michielkoning/vue-library.git",
   "version": "0.0.5",
   "main": "dist/vue-library.ssr.js",
