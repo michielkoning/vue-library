@@ -5,20 +5,9 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@master
 
-      - name: Install node
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
-
-      - name: Install npm dependencies
-        run: npm ci
-
-      # - name: Run tests
-      #   run: npm test
-
-      - name: Package
-        if: github.ref == 'refs/heads/master'
-        run: npm run semantic-release
+      - uses: codfish/semantic-release-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
