@@ -8,7 +8,7 @@ export default {
   props: {
     text: {
       type: String,
-      default: "Enter Buttonasdsadsa Text Here",
+      default: "Enter Buttonassdsadsa Text Here",
     },
   },
 };
