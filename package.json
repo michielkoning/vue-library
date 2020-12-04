@@ -1,5 +1,5 @@
 {
-  "name": "@m11g/vue-library",
+  "name": "vue-library",
   "version": "0.0.7",
   "main": "dist/vue-library.ssr.js",
   "browser": "dist/vue-library.esm.js",
